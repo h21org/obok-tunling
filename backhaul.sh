@@ -159,7 +159,6 @@ download_and_extract_backhaul() {
     echo -e "${GREEN}Backhaul installation completed.${NC}\n"
     chmod u+x "${config_dir}/backhaul_premium"
     rm -rf "$DOWNLOAD_DIR"
-    # rm -rf "${config_dir}/LICENSE" >/dev/null 2>&1
     rm -rf "${config_dir}/README.md" >/dev/null 2>&1
 }
 
